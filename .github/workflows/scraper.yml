@@ -14,7 +14,8 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install deps
-        run: pip install -r requirements.txt
+        run: pip install requests beautifulsoup4
       - name: Run scraper
         run: python marinemesse_a.py
+
 
